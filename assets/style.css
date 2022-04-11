@@ -23,6 +23,7 @@ body {
     color: var(--main-color);
 }
 
+
 /* MENU */
 header {
     width: 100%;
@@ -46,6 +47,7 @@ nav {
     transition: 1s;
     background: var(--menu-bg-light);
     color: var(--main-color);
+    z-index: 5000;
 }
 .wrapper{
     max-width: 1110px;
@@ -148,13 +150,40 @@ nav.black ul li a {
 /* home */
 
 header.home_top {
+    text-align: center;
     width: 100%;
     height: 100vh;
     background-image: url('../pic/bg1.jpg');
     background-size: cover;
     background-position: center
 }
-
+header.home_top .center_title {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: -50px;
+    z-index: 11;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+header.home_top .maintitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: white;
+    text-shadow: #444 2px 2px 4px;
+}
+header.home_top .stars {
+    position: relative;
+    color: #FFDF00;
+}
+header.home_top .stars i {
+margin: 5px 10px;
+}
 
 
 /* room */
@@ -165,4 +194,31 @@ header.room_top {
     background-image: url('../pic/room.jpg');
     background-size: cover;
     background-position: 10% 50%;
+}
+
+
+
+
+
+
+
+
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    background-color: #070707;
+    width: 35px;
+    height: 35px;
+    z-index: 100000;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 30px 30px;
+    cursor: pointer;
+    background-image: url(../pic/arrowup.svg);
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+    border-radius: 50%;
 }
