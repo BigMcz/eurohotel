@@ -4,7 +4,7 @@
     <header class="home_top">
         <div class="center_title">
 
-            <h1 class="maintitle parallax-fade-top"> Eurohotel Karlovy Vary</h1>
+            <h1 class="maintitle parallax-fade-top">Eurohotel Karlovy Vary</h1>
             <h2 class="stars parallax-fade-top">
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>

@@ -159,7 +159,7 @@ header.home_top {
 }
 header.home_top .center_title {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 0;
     width: 100%;
     margin-top: -50px;
@@ -173,6 +173,7 @@ header.home_top .maintitle {
     justify-content: center;
     overflow: hidden;
     font-size: 4rem;
+    line-height: 5.4rem;
     font-weight: bolder;
     color: white;
     text-shadow: #444 2px 2px 4px;
@@ -180,9 +181,10 @@ header.home_top .maintitle {
 header.home_top .stars {
     position: relative;
     color: #FFDF00;
+    text-shadow: #444 2px 2px 2px;
 }
 header.home_top .stars i {
-margin: 5px 10px;
+margin: 5px 8px;
 }
 
 
@@ -190,12 +192,32 @@ margin: 5px 10px;
 
 header.room_top {
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     background-image: url('../pic/room.jpg');
     background-size: cover;
     background-position: 10% 50%;
 }
-
+header.room_top .center_title {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    margin-top: -50px;
+    z-index: 11;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+header.room_top .maintitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 3rem;
+    line-height: 4.4rem;
+    font-weight: bolder;
+    color: white;
+    text-shadow: #444 2px 2px 4px;
+}
 
 
 
