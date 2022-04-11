@@ -9,11 +9,11 @@
         </div>
         <div class="menu">
            <ul>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">Pokoje</a></li>
-              <li><a href="#">Ceník</a></li>
-              <li><a href="#">Město a okolí</a></li>
-              <li><a href="#">Kontakt</a></li>
+              <li><a href="./index.php">O nás</a></li>
+              <li><a href="./pokoje.php">Pokoje</a></li>
+              <li><a href="./cenik.php">Ceník</a></li>
+              <li><a href="./mestoaokoli.php">Město a okolí</a></li>
+              <li><a href="./kontakt.php">Kontakt</a></li>
            </ul>
         </div>
 

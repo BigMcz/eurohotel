@@ -1,10 +1,19 @@
+<?php
+
+  $page_name = basename($_SERVER['SCRIPT_NAME'], '.php');
+  if ( $page_name == 'index' ) $page_name = 'O nás';
+  if ( $page_name == 'cenik' ) $page_name = 'Ceník';
+  if ( $page_name == 'mestoaokoli' ) $page_name = 'Město a okolí';
+  
+
+?>
 <!DOCTYPE html>
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eurohotel</title>
+    <title><?php echo ucfirst($page_name); ?> / Eurohotel</title>
 
     <!-- font awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,6 +28,4 @@
 <body>
       <header>
         <?php include './_inc/menu.php'?>
-      </header>    
-
-    <article class="content container-fluid">
+      </header>
