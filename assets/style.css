@@ -190,36 +190,50 @@ margin: 5px 8px;
 }
 
 
-/* room */
+/* head of other site */
 
-header.room_top {
-    width: 100%;
-    height: 50vh;
+
+section.room header.header_top {
     background-image: url('../pic/room.jpg');
-    background-size: cover;
     background-position: 10% 50%;
 }
-header.room_top .center_title {
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 100%;
-    margin-top: -50px;
-    z-index: 11;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+section.price header.header_top {
+    background-image: url('../pic/pricelist.jpg');
+    background-position: 50% 80%;
 }
-header.room_top .maintitle {
+section.town header.header_top {
+    background-image: url('../pic/town.jpg');
+    background-position: 50% 100%;
+}
+
+header.header_top {
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+}
+header.header_top .center_title {
     position: relative;
+    height: 50vh;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 111;
+
+}
+header.header_top .maintitle {
+    position: relative;
+    justify-content: center;
     overflow: hidden;
+    text-align: center;
+    margin-top: 5.75rem;
     font-size: 3rem;
     line-height: 4.4rem;
     font-weight: bolder;
     color: white;
     text-shadow: #444 2px 2px 4px;
 }
+
 
 
 
