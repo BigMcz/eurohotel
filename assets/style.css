@@ -79,7 +79,9 @@ nav ul li a {
     font-weight: bold;
     color: var(--main-color);
     padding: 1rem 1rem;
-
+}
+nav ul li a.active {
+    color: var(--sec-color);
 }
 nav ul li:hover a {
     color: var(--main-color);

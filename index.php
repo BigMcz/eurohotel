@@ -6,10 +6,9 @@
 
             <h1 class="maintitle parallax-fade-top">Eurohotel Karlovy Vary</h1>
             <h2 class="stars parallax-fade-top">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
+                <i class="fa fa-star star"></i>
+                <i class="fa fa-star star"></i>
+                <i class="fa fa-star star"></i>
             </h2>
         </div>
     </header>

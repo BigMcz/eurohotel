@@ -7,7 +7,7 @@
         <div class="logo">
            EURO HOTEL
         </div>
-        <div class="menu">
+        <div class="menu" id="menu">
            <ul>
               <li><a href="./index.php">O nás</a></li>
               <li><a href="./pokoje.php">Pokoje</a></li>
