@@ -5,7 +5,7 @@
            <i class="fa fa-bars fa-2x"></i>
         </div>
         <div class="logo">
-           EURO HOTEL
+           EUROHOTEL
         </div>
         <div class="menu" id="menu">
            <ul>

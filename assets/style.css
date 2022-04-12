@@ -226,7 +226,7 @@ header.header_top .maintitle {
     justify-content: center;
     overflow: hidden;
     text-align: center;
-    margin-top: 5.75rem;
+    margin-top: 5.65rem;
     font-size: 3rem;
     line-height: 4.4rem;
     font-weight: bolder;
@@ -235,8 +235,33 @@ header.header_top .maintitle {
 }
 
 
+/* universal content */
 
-
+.padding-top-bottom {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.over-hide {
+    overflow: hidden;
+}
+.section {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.ls {
+    letter-spacing: .1rem;
+}
+.img-wrap {
+    position: relative;
+    width: 100%;
+    display: block;
+}
+.img-wrap img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
 
 
 
