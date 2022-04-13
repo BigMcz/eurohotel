@@ -189,6 +189,25 @@ header.home_top .stars i {
 margin: 5px 8px;
 }
 
+.custom-shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+.custom-shape svg {
+    position: relative;
+    display: block;
+    width: calc(172% + 1.3px);
+    height: 66px;
+}
+.custom-shape .shape-fill {
+    fill: #FFFFFF;
+}
+
 
 /* head of other site */
 
@@ -196,6 +215,7 @@ margin: 5px 8px;
 section.room header.header_top {
     background-image: url('../pic/room.jpg');
     background-position: 10% 50%;
+    border-radius: 0 0 50% 50% / 25px;
 }
 section.price header.header_top {
     background-image: url('../pic/pricelist.jpg');

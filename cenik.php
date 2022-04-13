@@ -2,9 +2,11 @@
 
 <section class="price">
     <header class="header_top">
+    
         <div class="center_title">
-        <h1 class="maintitle">Ceny pokojů</h1>
-        </div>       
+        <h1 class="maintitle">Ceny pokojů</h1> 
+        </div>
+   
     </header>
     
 
